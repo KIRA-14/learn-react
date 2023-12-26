@@ -1,0 +1,26 @@
+{
+  "name": "react-learn-to-win",
+  "version": "1.0.0",
+  "description": "lran-to-win",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KIRA-14/learn-react.git"
+  },
+  "keywords": [
+    "learn-to-win"
+  ],
+  "author": "kira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KIRA-14/learn-react/issues"
+  },
+  "homepage": "https://github.com/KIRA-14/learn-react#readme"
+}
