@@ -2,10 +2,13 @@
   "name": "react-learn-to-win",
   "version": "1.0.0",
   "description": "lran-to-win",
-  "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
   "devDependencies": {
-    "parcel": "^2.10.3"
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
   },
   "scripts": {
     "test": "jest"
@@ -22,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/KIRA-14/learn-react/issues"
   },
-  "homepage": "https://github.com/KIRA-14/learn-react#readme"
+  "homepage": "https://github.com/KIRA-14/learn-react#readme",
+  "browserslist":[
+    "last 2 version"
+  ]
 }
