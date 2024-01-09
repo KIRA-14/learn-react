@@ -1,4 +1,6 @@
 // var h1Element = document.createElement("h1");
+
+
 // h1Element.innerHTML = "Hello World From JS";
 
 // var rootElement  = document.getElementById('root');
@@ -10,25 +12,23 @@
 // const hedder = React.createElement('h1',{id: "heading"},"Hello world from react")
 
 import React from "react";
-import ReactDOM  from "react-dom/client";
+import ReactDOM from "react-dom/client";
 
-const newElementForRender = React.createElement(
-    'div',
-    { id: 'parent' },
-    [
-        React.createElement('div', { id: 'chield' },
-            [
-                React.createElement('h1', {}, 'Hi im a H1 Tag'),
-                React.createElement('h2', {}, 'Hi im a H2 Tag')
-            ]),
-        React.createElement('div', { id: 'chield' },
-            [
-                React.createElement('h1', {}, 'Hi im a H1 Tag'),
-                React.createElement('h2', {}, 'Hi im a H2 Tag')
-            ])
-    ]
-)
 
+const reactElement = <h1 id="text">Im Reacte Code js</h1>
+
+const TitleComponent = () => reactElement;
+
+//
+const HeadingComponet = () => {
+    return<div>
+        <TitleComponent />
+        <h1>Hi im Function componengt</h1>
+    </div>;
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(newElementForRender);
+
+
+root.render(<HeadingComponet />);
+
